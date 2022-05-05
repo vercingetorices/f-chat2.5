@@ -22,7 +22,7 @@ a.btn:hover {
 }
 
 .blackText {
-    text-shadow: #8787c3 1px 0, #8787c3 -1px 0, #8787c3 0 1px, #8787c3 0 -1px, #8787c3 1px 1px, #8787c3 -1px 1px, #8787c3 1px -1px, #8787c3 -1px -1px
+	text-shadow: #ccc 0px 1px 2px
 }
 
 :root {
