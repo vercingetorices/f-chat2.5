@@ -6974,8 +6974,7 @@ button.bg-dark:hover {
 }
 
 .inline-image {
-	display: inherit;
-	margin: 0 auto;
+	margin-top: -0.8rem; /* deeply ugly. */
     max-width: 100%;
     height: auto
 }

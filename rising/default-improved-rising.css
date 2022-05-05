@@ -6969,14 +6969,13 @@ button.bg-dark:hover {
 
 .character-page-avatar {	
     max-height: 100px;
-    max-width: 100px
+    max-width: 100px;
     height: 100px;
     width: 100px
 }
 
 .inline-image {
-	display: inherit;
-	margin: 0 auto;
+	margin-top: -0.8rem; /* deeply ugly. */
     max-width: 100%;
     height: auto
 }
