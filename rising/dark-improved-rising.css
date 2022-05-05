@@ -49,7 +49,7 @@ a.btn:hover {
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: verdana, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, "Courier New", monospace
 }
 
 *,
@@ -207,7 +207,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, "Courier New", monospace;
     font-size: 1em
 }
 
@@ -270,7 +270,7 @@ button,
 input,
 optgroup,
 select,
-textarea1 {
+textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
@@ -420,6 +420,7 @@ h6 {
     font-weight: 700;
     line-height: 1.2;
 }
+
 .h1,
 h1 {
     font-size: 2.5rem
@@ -7197,7 +7198,6 @@ button.bg-dark:hover {
 
 .bbcode-editor-text-area textarea {
     min-height: 150px;
-    font-family: verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
 }
 
 .bbcode-editor-text-area textarea:focus {
@@ -7343,7 +7343,7 @@ div.indentText {
     display: inline;
     max-height: 100px;
     max-width: 100px;
-    max-height: 100px;
+    height: 100px;
     width: 100px
 }
 

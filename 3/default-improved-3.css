@@ -53,7 +53,7 @@ a.btn:hover {
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: verdana, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, "Courier New", monospace
 }
 
 *,
@@ -85,7 +85,6 @@ section {
 body {
     margin: 0;
     font-family: verdana, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    ;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
@@ -415,6 +414,23 @@ h6 {
     line-height: 1.2
 }
 
+.centerText .h1,
+.centerText .h2,
+.centerText .h3,
+.centerText .h4,
+.centerText .h5,
+.centerText .h6,
+.centerText h1,
+.centerText h2,
+.centerText h3,
+.centerText h4,
+.centerText h5,
+.centerText h6 {
+	margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 .h1,
 h1 {
     font-size: 2.5rem
@@ -432,17 +448,47 @@ h3 {
 
 .h4,
 h4 {
-    font-size: 1.5rem
+    font-size: 1.17rem
 }
 
 .h5,
 h5 {
-    font-size: 1.25rem
+    font-size: 1.17rem
 }
 
 .h6,
 h6 {
     font-size: 1rem
+}
+
+.centerText .h1,
+.centerText h1 {
+    font-size: 2em
+}
+
+.centerText .h2,
+.centerText h2 {
+    font-size: 1.17em
+}
+
+.centerText .h3,
+.centerText h3 {
+    font-size: 1.17rem
+}
+
+.centerText .h4,
+.centerText h4 {
+    font-size: 1em
+}
+
+.centerText .h5,
+.centerText h5 {
+    font-size: 0.83rem
+}
+
+.centerText .h6,
+.centerText h6 {
+    font-size: 0.67em
 }
 
 .lead {
@@ -712,8 +758,8 @@ mark {
 }
 
 .col-2 {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%
 }
 
 .col-3 {
@@ -1081,8 +1127,8 @@ mark {
     }
 
     .col-md-4 {
-        flex: 0 0 33.33333%;
-        max-width: 33.33333%
+        flex: 0 0 25%;
+        max-width: 25%
     }
 
     .col-md-5 {
@@ -1435,8 +1481,8 @@ mark {
     }
 
     .col-xl-2 {
-        flex: 0 0 16.66667%;
-        max-width: 16.66667%
+        flex: 0 0 16%;
+        max-width: 16%
     }
 
     .col-xl-3 {
