@@ -404,18 +404,18 @@ h6 {
     line-height: 1.2
 }
 
-.centerText .h1,
-.centerText .h2,
-.centerText .h3,
-.centerText .h4,
-.centerText .h5,
-.centerText .h6,
-.centerText h1,
-.centerText h2,
-.centerText h3,
-.centerText h4,
-.centerText h5,
-.centerText h6 {
+#characterView .h1,
+#characterView .h2,
+#characterView .h3,
+#characterView .h4,
+#characterView .h5,
+#characterView .h6,
+#characterView h1,
+#characterView h2,
+#characterView h3,
+#characterView h4,
+#characterView h5,
+#characterView h6 {
 	margin-bottom: 10px;
     font-weight: 700;
     line-height: 1.2;
@@ -451,33 +451,33 @@ h6 {
     font-size: 1rem
 }
 
-.centerText .h1,
-.centerText h1 {
+#characterView .h1,
+#characterView h1 {
     font-size: 2em
 }
 
-.centerText .h2,
-.centerText h2 {
+#characterView .h2,
+#characterView h2 {
     font-size: 1.17em
 }
 
-.centerText .h3,
-.centerText h3 {
+#characterView .h3,
+#characterView h3 {
     font-size: 1.17rem
 }
 
-.centerText .h4,
-.centerText h4 {
+#characterView .h4,
+#characterView h4 {
     font-size: 1em
 }
 
-.centerText .h5,
-.centerText h5 {
+#characterView .h5,
+#characterView h5 {
     font-size: 0.83rem
 }
 
-.centerText .h6,
-.centerText h6 {
+#characterView .h6,
+#characterView h6 {
     font-size: 0.67em
 }
 
@@ -6967,11 +6967,15 @@ button.bg-dark:hover {
 }
 
 .character-page-avatar {
+	max-height: 100px;
+    max-width: 100px
     height: 100px;
     width: 100px
 }
 
 .inline-image {
+	display: inherit;
+	margin: 0 auto;
     max-width: 100%;
     height: auto
 }
@@ -7352,7 +7356,7 @@ div.indentText {
     width: 50px;
 }
 
-.centerText .character-avatar.icon {
+#characterView .character-avatar.icon {
 	margin-right: 2px;
 }
 
@@ -7365,6 +7369,8 @@ div.indentText {
 }
 
 .bbcode-collapse-header {
+	padding: 3px 25px 3px 25px;
+	font-size: 1.2em;
     font-weight: 700;
     cursor: pointer;
     width: 100%;
