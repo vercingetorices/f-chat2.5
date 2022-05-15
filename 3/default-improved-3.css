@@ -6796,7 +6796,7 @@ button.bg-dark:hover {
 }
 
 .inline-image {
-	margin-top: -0.8rem; /* deeply ugly. */
+/*	margin-top: -0.8rem;  deeply ugly. */
     max-width: 100%;
     height: auto
 }
